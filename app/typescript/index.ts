@@ -1,4 +1,4 @@
-import a from './common/a'
+import a from "@app/typescript/common/a";
 const $ = require('jquery')
 
 console.log(a)

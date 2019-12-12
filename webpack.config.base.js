@@ -62,7 +62,11 @@ const webpackBaseConfig = {
   // 配置解析
   resolve: {
     // 查找模块
-    extensions: ['.ts', '.scss', '.js', '.json']
+    extensions: ['.ts', '.scss', '.js', '.json'],
+    // 路径别名
+    alias: {
+      '@app': path.join(__dirname, './app')
+    }
   },
   // loader列表
   module: {

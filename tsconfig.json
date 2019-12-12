@@ -5,5 +5,9 @@
     "target": "es5",
     "allowJs": true,
     "outDir": "./dist/",
+    "baseUrl": ".",
+    "paths": {
+      "@app/*": ["./app/*"]
+    }
   }
 }
